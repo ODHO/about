@@ -49,10 +49,8 @@ if(isset($_POST['submitCV'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once("includes/head.php") ?>
 <title>About US</title>
 <body>
-  <?php include_once("includes/header.php") ?>
 
     <div class="aboutusbanner">
       <div class="container">
@@ -167,7 +165,6 @@ if(isset($_POST['submitCV'])) {
     
     
         
-    <?php include_once("includes/footer.php") ?>
 
 </body>
 </html>
