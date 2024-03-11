@@ -7,7 +7,7 @@ if(isset($_POST['submitCV'])) {
     $message = $_POST['message'];
     
     // Email details
-    $to = "traheel097@gmail.com";
+    $to = "maxwell.harper2027@gmail.com";
     $subject = "New CV Submission";
     $body = "Name: $name\nEmail: $email\nMessage: $message";
     $headers = "From: $email\r\n";
